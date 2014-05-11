@@ -1,0 +1,12 @@
+Source: ros-indigo-laser-assembler
+Section: misc
+Priority: extra
+Maintainer: David Gossow <dgossoe@willowgarage.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-indigo-catkin (>= 0.5.68), ros-indigo-filters, ros-indigo-laser-geometry, ros-indigo-message-filters, ros-indigo-message-generation, ros-indigo-pluginlib, ros-indigo-roscpp, ros-indigo-rostest, ros-indigo-sensor-msgs, ros-indigo-tf
+Homepage: http://ros.org/wiki/laser_assembler
+Standards-Version: 3.9.2
+
+Package: ros-indigo-laser-assembler
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-filters, ros-indigo-laser-geometry, ros-indigo-message-filters, ros-indigo-message-runtime, ros-indigo-pluginlib, ros-indigo-roscpp, ros-indigo-sensor-msgs, ros-indigo-tf
+Description: Provides nodes to assemble point clouds from either LaserScan or PointCloud messages
